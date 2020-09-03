@@ -26,12 +26,13 @@ checksum = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
 
 [[package]]
 name = "bitvec"
-version = "0.17.4"
+version = "0.18.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41262f11d771fd4a61aa3ce019fca363b4b6c282fca9da2a31186d3965a47a5c"
+checksum = "8c1f0df4bb4c441080e98d6ea2dc3281fc19bb440e69ce03075e3d705894f1cb"
 dependencies = [
- "either",
+ "funty",
  "radium",
+ "wyz",
 ]
 
 [[package]]
@@ -141,9 +142,9 @@ dependencies = [
 
 [[package]]
 name = "deku"
-version = "0.6.1"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "040cadd82244dad2d8a8bf23d24db913fe81b6b750e825e4bfc1b61cff1887e0"
+checksum = "8bfee18b55ad9b03e2ed82e06ae7b91576832787d724f1c99f0aea9d37dd7444"
 dependencies = [
  "bitvec",
  "deku_derive",
@@ -151,9 +152,9 @@ dependencies = [
 
 [[package]]
 name = "deku_derive"
-version = "0.6.0"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96eeae0d5f82a1dfe9253e4211740736439b99258e8ce8d6da414477c9e7a2a5"
+checksum = "e653d5822cf234d45d6cbdaf986ef5b99857a8bb4cda5c866c827faa3e7a4d44"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -202,6 +203,12 @@ name = "foreign-types-shared"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b"
+
+[[package]]
+name = "funty"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ba62103ce691c2fd80fbae2213dfdda9ce60804973ac6b6e97de818ea7f52c8"
 
 [[package]]
 name = "generator"
@@ -828,6 +835,12 @@ name = "winapi-x86_64-pc-windows-gnu"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
+
+[[package]]
+name = "wyz"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85e60b0d1b5f99db2556934e21937020776a5d31520bf169e851ac44e6420214"
 
 [[package]]
 name = "xmlparser"
