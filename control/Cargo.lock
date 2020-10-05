@@ -531,18 +531,18 @@ dependencies = [
 
 [[package]]
 name = "speedy"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b98c153e20b455c34900383abc7654734babcea8d683377c1a99c54178ab1577"
+checksum = "065941586ee990974b65f47846f226a670ec13f56fc96697a9dc9904704e16b8"
 dependencies = [
  "speedy-derive",
 ]
 
 [[package]]
 name = "speedy-derive"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "060ee719e5fcf469c8cc3b236ac07d9e42a137edcb78c7fc7ebfd8b8787388b9"
+checksum = "1997efe7e56c9c1b0fa220197980d97425fec494e24e7917ecf98f2160858871"
 dependencies = [
  "proc-macro2",
  "quote",
