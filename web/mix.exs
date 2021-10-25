@@ -36,7 +36,7 @@ defmodule InfolabLightGames.MixProject do
       {:phoenix, "~> 1.6"},
       # {:phoenix, git: "https://github.com/phoenixframework/phoenix", override: true},
       {:floki, ">= 0.0.0", only: :test},
-      {:phoenix_html, "~> 3.0.4"},
+      {:phoenix_html, "~> 3.1.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.16.4"},
       {:phoenix_live_dashboard, "~> 0.5"},
